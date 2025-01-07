@@ -4,4 +4,4 @@ This repo is showing the example using [openapi-typescript](https://github.com/o
 
 
 > [!NOTE]
-> The schema file is from [here](https://petstore.swagger.io/).
+> The schema file is from [here](https://petstore3.swagger.io/api/v3/openapi.json).
