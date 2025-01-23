@@ -1,0 +1,11 @@
+{
+  "name": "libs",
+  "packageManager": "yarn@4.6.0",
+  "scripts": {
+    "gen:api": "openapi-typescript ./schema/openapi.json -o ../web-app/src/lib/api/v1.d.ts"
+  },
+  "devDependencies": {
+    "openapi-typescript": "^7.5.2",
+    "typescript": "^5.7.3"
+  }
+}
