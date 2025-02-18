@@ -5,6 +5,7 @@
   "private": true,
   "packageManager": "yarn@4.6.0",
   "scripts": {
-    "start:web-app": "yarn workspace web-app dev"
+    "start:web-app": "yarn workspace web-app dev",
+    "start:web-api": "cd ./packages/web-api && yarn start"
   }
 }
