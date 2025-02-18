@@ -2,10 +2,14 @@
   "name": "libs",
   "packageManager": "yarn@4.6.0",
   "scripts": {
-    "gen:api": "openapi-typescript ./schema/openapi.json -o ../web-app/src/lib/api/v1.d.ts"
+    "gen:app": "openapi-typescript ./schema/openapi.json -o ../web-app/src/lib/api/v1.d.ts",
+    "gen:api": "openapi-generator-cli generate"
   },
   "devDependencies": {
     "openapi-typescript": "^7.6.1",
     "typescript": "^5.7.3"
+  },
+  "dependencies": {
+    "@openapitools/openapi-generator-cli": "^2.16.3"
   }
 }
