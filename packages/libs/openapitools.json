@@ -5,7 +5,7 @@
     "version": "7.11.0",
     "generators": {
       "v3.0": {
-        "generatorName": "nodejs-express-server",
+        "generatorName": "aspnetcore",
         "output": "../web-api",
         "glob": "./schema/openapi.json"
       }
