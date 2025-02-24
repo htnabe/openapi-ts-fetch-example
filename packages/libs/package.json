@@ -3,13 +3,16 @@
   "packageManager": "yarn@4.6.0",
   "scripts": {
     "gen:app": "openapi-typescript ./schema/openapi.json -o ../web-app/src/lib/api/v1.d.ts",
-    "gen:api": "openapi-generator-cli generate"
+    "gen:api": "openapi-generator-cli generate",
+    "openapi-ts": "openapi-ts"
   },
   "devDependencies": {
+    "@hey-api/openapi-ts": "^0.64.5",
     "openapi-typescript": "^7.6.1",
     "typescript": "^5.7.3"
   },
   "dependencies": {
+    "@hey-api/client-fetch": "^0.8.1",
     "@openapitools/openapi-generator-cli": "^2.16.3"
   }
 }
